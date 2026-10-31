@@ -1,0 +1,81 @@
+/*
+  Night-garage instrument palette.
+  Components may only use these variables for color, type, spacing, and radius.
+  theme-color in index.html mirrors --c-bg.
+*/
+:root {
+  --c-bg: #101410;
+  --c-bg-deep: #0b0e0b;
+  --c-raised: #1a201c;
+  --c-surface: #242b26;
+  --c-surface-2: #303830;
+  --c-line: #3c473e;
+  --c-text: #f4f7f2;
+  --c-text-soft: #c5d0c6;
+  --c-text-faint: #8b998c;
+  --c-amber: #f0b429;
+  --c-amber-2: #ffd978;
+  --c-amber-deep: #c88816;
+  --c-amber-ink: #221804;
+  --c-amber-soft: #3a2e14;
+  --c-amber-glow: color-mix(in srgb, var(--c-amber) 32%, transparent);
+  --c-amber-beam: color-mix(in srgb, var(--c-amber) 58%, transparent);
+  --c-stop: #ff4b3e;
+  --c-stop-deep: #d83328;
+  --c-stop-soft: #3f1c18;
+  --c-good: #9ddeb4;
+  --c-good-soft: #173228;
+  --c-signal: #9ad4ea;
+  --c-signal-soft: #14323c;
+  --c-shadow: rgb(0 0 0 / 45%);
+
+  --font-family-sans: "Noto Sans SC", "WenQuanYi Micro Hei", "Droid Sans Fallback",
+    sans-serif;
+  --font-family-mono: "IBM Plex Mono", "Noto Sans Mono", ui-monospace, monospace;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: 1.75rem;
+  --fs-3xl: 2.25rem;
+  --fs-display: 3.25rem;
+
+  --lh-tight: 1.15;
+  --lh-snug: 1.35;
+  --lh-normal: 1.5;
+
+  --track-title: 0.14em;
+  --track-label: 0.08em;
+  --track-num: -0.03em;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  --rad-sm: 0.5rem;
+  --rad-md: 0.875rem;
+  --rad-lg: 1.125rem;
+  --rad-xl: 1.75rem;
+  --rad-full: 999px;
+
+  --size-frame: 27.5rem;
+  --size-control: 3.25rem;
+  --size-joystick: 13.75rem;
+  --size-medallion: 10.5rem;
+  --size-car-md: 2.25rem;
+  --size-car-lg: 6.25rem;
+  --size-bar: 0.1875rem;
+
+  --duration-fast: 140ms;
+  --duration-spring: 220ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
